@@ -67,7 +67,7 @@ public class ListadoProductos extends VerticalLayout {
         grid.addClassName("contact-grid");
         grid.setSizeFull();
 
-        grid.setColumns("id","nombre","telefono","fecha");
+        grid.setColumns("nombre","categoria","precio","EAN13");
         grid.setItems(listaContacto);
 
     }
